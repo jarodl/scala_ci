@@ -1,5 +1,4 @@
 package com.jarodl.scala_ci
-import com.jarodl.scala_ci.CorrelationUtility._
 
 object Main {
   // A dictionary of movie critics and their ratings of a small
@@ -51,6 +50,6 @@ object Main {
   )
 
   def main(args: Array[String]) {
-    println(sim_distance(critics, "Lisa Rose", "Jarod"))
+    println(CorrelationUtility.sim_distance(critics, "Lisa Rose", "Jarod"))
   }
 }
